@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Lists</title>
+</head>
+    <body>
+        <h1>Haloween Recipe Lists</h1>
+        <p>
+            What type of recipe do you want?
+        </p>
+        <div class="container"> 
+            <input type="radio" id="sweet-treats" name="treat-type" value="sweet-treats">
+            <label for="sweet-treats">Sweet treats</label>
+        </div>
+        
+        <div class="container"> 
+            <input type="radio" id="savory-treats" name="treat-type" value="savory-treats">
+            <label for="savory-treats">Savory treats</label>
+        </div>
+        
+        <div>
+            <button onclick="changeLists()">Show me Ideas</button> 
+            <ul id="ideaMessage">
+            </ul>
+        </div>
+        <script src="Index.js"></script>
+    </body>
+</html>
